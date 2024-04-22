@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/mmenu-light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="topHeader">
+        <div class="container">
+            <div class="content">
+                <div class="lefttop">
+                    <p><i class="fa-solid fa-truck-fast"></i>Free shipping on orders $100+</p>
+                    <p>Shopper TNC is one of the largest brand. <strong><u>Show all products</u></strong></p>
+                </div>
+                <div class="righttop">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="headerMdl">
+        <div class="container">
+            <div class="content">
+                <a class="logoLink" href="index.html"><img src="assets/images/headerLogo.webp" alt="headerLogo"></a>
+                <form>
+                    <input class="firstInput" type="text" placeholder="What are you looking for">
+                    <input class="lastInput" value="Search" type="button">
+                </form>
+                <div class="cardBox">
+                    <div class="account"><i class="fa-solid fa-user"></i> <span>Login</span></div>
+                    <div class="cardCntent d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <div class="cardIcon"><i class="fa-solid fa-bag-shopping hdrSpingCard"></i></div>
+                        <div class="cardCanver">
+                            <p>Your Card</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel mb-0"><strong>Shopping Cart</strong></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-0 mt-4">
+            <div class="bodyContent  productBox d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <div class="imgBox">
+                        <img src="assets/images/offcanvsLaptop.png" alt="offfcanverLaptop">
+                    </div>
+                    <div class="img_info">
+                        <p><strong>TNC Laptop</strong></p>
+                        <p>$ 170.00 USD</p>
+                    </div>
+                </div>
+                <div class="quantiotyBox">
+                    <input type="number" value="1">
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer">
+            <div class="totalMoney d-flex justify-content-between align-items-center">
+                <p><strong>Subtotal</strong></p>
+                <p><strong>$ 510.00 USD</strong></p>
+            </div>
+            <div class="contineuBtn">
+                <button>Contineu to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header_content">
+                <div class="caterogi">
+                    <ul>
+                        <li class="parent"><a href="#"><strong><i class="fa-solid fa-list"></i>BROWSE ALL CATEGORIES</strong></a>
+                            <ul class="chiled_ul">
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/watchicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Watch</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/megaphoneIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Speaker</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/mouseIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Mouse</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/monitoricon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Monitor</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/mobileicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Mobile</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/Laptop icon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Laptop</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/keyboardIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Keyboard</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/headphonesIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Headphone</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/earbudsIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Earphone</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/cameraicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Camera</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/Accesoriesicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Accessries</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <span style="width: 1px; height: 21px; background-color: #b4becb;"></span>
+                <div class="headerMenuBox">
+                    <div class="mmenu_box">
+                        <a  href="#mntk_mmenu" class="mmenuButton fs-3" style="color: #fff;"><i class="fa-solid fa-bars"></i></a>
+                        <nav id="mntk_mmenu">
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="aboutus.html">ABOUT US</a></li>
+                                <li><a href="shop.html">SHOP</a></li>
+                                <li><a href="blog.html">BLOG</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                            </ul>
+                        </nav>
+                    </div>                    
+                    <div class="dmnenu_box">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="aboutus.html">ABOUT US</a></li>
+                            <li><a href="shop.html">SHOP</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <span style="width: 1px; height: 21px; background-color: #b4becb;"></span>
+                <div class="contactBox d-md-flex flex-wrap justify-end align-items-center column-gap-3">
+                    <div class="phone"><a href="Call: (123) 123-4567"><i class="fa-solid fa-phone me-2"></i>Call: (123) 123-4567</a></div>
+                    <div class="mail"><a href="Email: example@gmail.com"><i class="fa-regular fa-envelope me-2"></i>Email: example@gmail.com</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="contactSec">
+        <div class="container">
+            <div class="contactCntent">
+                <div class="addressCon">
+                    <div class="addTittle">
+                        <h2 class="h2">How can I help you?</h2>
+                        <p>Get in touch with us through our contact form for any inquiries, questions, or partnership opportunities.</p>
+                    </div>
+                    <ul class="addressList">
+                        <li><strong>Office:</strong>930 Hilgard Ave, Los Angeles, CA 900XX, United States.</li>
+                        <li><strong>Contact no:</strong>+111 345 543 XX0</li>
+                        <li><strong>Email:</strong>exampleX@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="formCon">
+                    <div class="formTittle">
+                        <h4 class="h4">Get in touch</h4>
+                        <p>Connect with us through our contact form for any inquiries, questions.</p>
+                    </div>
+                    <form id="form">
+                        <div class="nameInput">
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" placeholder="Your Name">
+                        </div>
+                        <div class="emailInput">
+                            <label for="Email">Email:</label>
+                            <input id="Email" type="text" placeholder="Your Email">
+                        </div>
+                        <div class="phnInput">
+                            <label for="Number">Number:</label>
+                            <input id="Number" placeholder="Your Phone" type="number">
+                        </div>
+                        <div class="subInput">
+                            <label for="Subject">Subject:</label>
+                            <input id="Subject" type="text" placeholder="Subject">
+                        </div>
+                        <div class="msgInput">
+                            <label for="Message">Message:</label>
+                            <textarea type="text" placeholder="Message" rows="20"></textarea>
+                        </div>
+                        <div class="submitBtn">
+                            <button class="btn-flip" data-back="Submit" data-front="Submit"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <div class="maptittle">
+                <h2 class="h2">Let’s start Something Great!</h2>
+                <p>Undo image pen asset distribute auto library. Move list underline frame opacity plugin outline project. Style variant slice shadow export blur plugin pixel.</p>
+            </div>
+            <div class="mapImg">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3652.054706978072!2d90.34372171119982!3d23.74542847858479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1713119024904!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sponsorSec">
+        <div class="container">
+            <div class="sponsorSlideParent">
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide1.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide2.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide3.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide4.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide5.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide5.webp" alt="sponsorSlide"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="subNews">
+        <div class="container">
+            <div class="subNewsContent">
+                <div class="textContent">
+                    <h2 class="h2">Subscribe our newsletter</h2>
+                    <p>Subscribe to our newsletter for exclusive updates, promotions, and exciting news delivered straight to your inbox!</p>
+                </div>
+                <div class="formContent">
+                    <input type="text">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footerContent">
+                <div class="contentOne footerCOntectInfo">
+                    <div class="heading">
+                        <img src="assets/images/footerLogo.webp" alt="fooerLogo">
+                    </div>
+                    <p>At Shopper TNC, we curate diverse, quality products ensuring a stress-free shopping experience. Our dedicated team provides prompt support. Join our community.</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+                <div class="contentTwo footerCOntectInfo">
+                    <div class="heading"><h4 class="h4">Useful Links</h4></div>
+                    <ul class="linkList">
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>About</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Contact</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="contentThree footerCOntectInfo">
+                    <div class="heading"><h4 class="h4">Quick Links</h4></div>
+                    <ul class="linkList">
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>About Us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Shop</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Licensing</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Log-in</a></li>
+                    </ul>
+                </div>
+                <div class="contentFour footerCOntectInfo">
+                    <div class="offlienAdd">
+                        <div class="heading"><h4 class="h4">Contact Address</h4></div>
+                        <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    </div>
+                    <div class="onlienAdd">
+                        <div class="heading"><h4 class="h4">Contact Address</h4></div>
+                        <ul class="linkList">
+                            <li><a href="#"><i class="fa-solid fa-phone-volume"></i>(123) 555-0119</a></li>
+                            <li><a href="#"><i class="fa-regular fa-envelope"></i>(123) 555-0119</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="crContent">
+                <p>Copyright © 2024 Shopper TNC</p>
+                <span class="frstChild"></span>
+                <a href="#">Designed by ThemeNcode LLC</a>
+                <span class="lastChild"></span>
+                <a href="#">Powered by Webflow</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script> -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/mmenu-light.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/unpkg.com_isotope-layout@3.0.6_dist_isotope.pkgd.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

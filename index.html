@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/mmenu-light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="topHeader">
+        <div class="container">
+            <div class="content">
+                <div class="lefttop">
+                    <p><i class="fa-solid fa-truck-fast"></i>Free shipping on orders $100+</p>
+                    <p>Shopper TNC is one of the largest brand. <strong><u>Show all products</u></strong></p>
+                </div>
+                <div class="righttop">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="headerMdl">
+        <div class="container">
+            <div class="content">
+                <a class="logoLink" href="index.html"><img src="assets/images/headerLogo.webp" alt="headerLogo"></a>
+                <form>
+                    <input class="firstInput" type="text" placeholder="What are you looking for">
+                    <input class="lastInput" value="Search" type="button">
+                </form>
+                <div class="cardBox">
+                    <div class="account"><i class="fa-solid fa-user"></i> <span>Login</span></div>
+                    <div class="cardCntent d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <div class="cardIcon"><i class="fa-solid fa-bag-shopping hdrSpingCard"></i></div>
+                        <div class="cardCanver">
+                            <p>Your Card</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel mb-0"><strong>Shopping Cart</strong></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-0 mt-4">
+            <div class="bodyContent  productBox d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <div class="imgBox">
+                        <img src="assets/images/offcanvsLaptop.png" alt="offfcanverLaptop">
+                    </div>
+                    <div class="img_info">
+                        <p><strong>TNC Laptop</strong></p>
+                        <p>$ 170.00 USD</p>
+                    </div>
+                </div>
+                <div class="quantiotyBox">
+                    <input type="number" value="1">
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer">
+            <div class="totalMoney d-flex justify-content-between align-items-center">
+                <p><strong>Subtotal</strong></p>
+                <p><strong>$ 510.00 USD</strong></p>
+            </div>
+            <div class="contineuBtn">
+                <button>Contineu to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header_content">
+                <div class="caterogi">
+                    <ul>
+                        <li class="parent"><a href="#"><strong><i class="fa-solid fa-list"></i>BROWSE ALL CATEGORIES</strong></a>
+                            <ul class="chiled_ul">
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/watchicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Watch</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/megaphoneIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Speaker</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/mouseIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Mouse</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/monitoricon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Monitor</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/mobileicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Mobile</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/Laptop icon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Laptop</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/keyboardIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Keyboard</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/headphonesIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Headphone</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/earbudsIcon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Earphone</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/cameraicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Camera</a>
+                                </li>
+                                <li class="d-flex justify-content-start align-items-center">
+                                    <img class="me-2" src="assets/images/Accesoriesicon.png" alt="watch" width="18px" height="18px">
+                                    <a href="#">Accessries</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <span style="width: 1px; height: 21px; background-color: #b4becb;"></span>
+                <div class="headerMenuBox">
+                    <div class="mmenu_box">
+                        <a  href="#mntk_mmenu" class="mmenuButton fs-3" style="color: #fff;"><i class="fa-solid fa-bars"></i></a>
+                        <nav id="mntk_mmenu">
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="aboutus.html">ABOUT US</a></li>
+                                <li><a href="shop.html">SHOP</a></li>
+                                <li><a href="blog.html">BLOG</a></li>
+                                <li><a href="contact.html">CONTACT </a></li>
+                            </ul>
+                        </nav>
+                    </div>                    
+                    <div class="dmnenu_box">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="aboutus.html">ABOUT US</a></li>
+                            <li><a href="shop.html">SHOP</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <span style="width: 1px; height: 21px; background-color: #b4becb;"></span>
+                <div class="contactBox d-md-flex flex-wrap justify-end align-items-center column-gap-3">
+                    <div class="phone"><a href="Call: (123) 123-4567"><i class="fa-solid fa-phone me-2"></i>Call: (123) 123-4567</a></div>
+                    <div class="mail"><a href="Email: example@gmail.com"><i class="fa-regular fa-envelope me-2"></i>Email: example@gmail.com</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="container">
+            <div class="bannerCOntent">
+                <div class="bannerSlider">
+                    <div class="bannerSingleSLider">
+                        <div class="bannerImg">
+                            <img src="assets/images/banerSLideImg1.webp" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear" alt="bnrSlide">
+                            <img src="assets/images/HeroBG.webp" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="linear" alt="">
+                        </div>
+                        <div class="bannerTextContent"data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+                            <h2 class="h2">Virtual reality (vr) headset</h2>
+                            <p>Blur vertical flatten effect duplicate select content blur ellipse. Scrolling thumbnail asset style align fill editor object. Rectangle move figma distribute select auto font scrolling. Opacity arrange follower.</p>
+                            <button class="btn-flip" data-back="Bye Now" data-front="Bye Now"></button>
+                        </div>
+                    </div>
+                    <div class="bannerSingleSLider">
+                        <div class="bannerImg">
+                            <img src="assets/images/banerSLideImg2.webp" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear" alt="bnrSlide">
+                            <img src="assets/images/HeroBG.webp" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="linear" alt="">
+                        </div>
+                        <div class="bannerTextContent"data-aos="fade-up">
+                            <h2 class="h2">16X Digital Zoom 1080P HD SLR Camera</h2>
+                            <p>Blur vertical flatten effect duplicate select content blur ellipse. Scrolling thumbnail asset style align fill editor object. Rectangle move figma distribute select auto font scrolling. Opacity arrange follower.</p>
+                            <button class="btn-flip" data-back="Back" data-front="Front"></button>
+                        </div>
+                    </div>
+                    <div class="bannerSingleSLider"data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+                        <div class="bannerImg">
+                            <img src="assets/images/banerSLideImg3.webp" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear" alt="bnrSlide">
+                            <img src="assets/images/HeroBG.webp" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="linear" alt="">
+                        </div>
+                        <div class="bannerTextContent">
+                            <h2 class="h2">VR BOX 2.0 Virtual Reality With 5D Glasses</h2>
+                            <p>Blur vertical flatten effect duplicate select content blur ellipse. Scrolling thumbnail asset style align fill editor object. Rectangle move figma distribute select auto font scrolling. Opacity arrange follower.</p>
+                            <button class="btn-flip" data-back="Back" data-front="Front"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="columnSec">
+        <div class="container">
+            <div class="columnContent">
+                <div class="columnHolder" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="columnImg">
+                        <img src="assets/images/delivery-bikeicon.webp" alt="">
+                    </div>
+                    <div class="columnTextContent">
+                        <h4 class="h4">Delivery from 30 min</h4>
+                        <p>Object select list clip clip star selection plugin component opacity. Line inspect object auto</p>
+                    </div>
+                </div>
+                <div class="columnHolder" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="columnImg">
+                        <img src="assets/images/assuranceicon.webp" alt="">
+                    </div>
+                    <div class="columnTextContent">
+                        <h4 class="h4">Quality assurance</h4>
+                        <p>Object select list clip clip star selection plugin component opacity. Line inspect object auto</p>
+                    </div>
+                </div>
+                <div class="columnHolder" data-aos="fade-up" data-aos-duration="1500" >
+                    <div class="columnImg">
+                        <img src="assets/images/Securepaymenticon.webp" alt="">
+                    </div>
+                    <div class="columnTextContent">
+                        <h4 class="h4">100% Secure Payment</h4>
+                        <p>Object select list clip clip star selection plugin component opacity. Line inspect object auto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dOfWeek">
+        <div class="container">
+            <div class="dow_header">
+                <h2>Deals of the Week</h2>
+                <button class="btn-flip" data-back="View All" data-front="View All"></button>
+            </div>
+            <div class="dow_content">
+                <div class="dowHolder">
+                    <div class="imgBox">
+                        <a href="#"><img src="assets/images/headphoneimage.png" alt="headphones" data-aos="zoom-in-right" data-aos-duration="1500"></a>
+                    </div>
+                    <div class="holderCOntentBox">
+                        <a href="#" data-aos="fade-up" data-aos-duration="1500">TNC Gaming Headphone</a>
+                        <div class="starReview" data-aos="fade-up" data-aos-duration="1500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pPrice" data-aos="fade-up" data-aos-duration="1500">
+                            <p>$ 100.00 USD</p>
+                            <span></span>
+                            <p><s>$ 120.00 USD</s></p>
+                        </div>
+                        <div class="adc" data-aos="fade-up" data-aos-duration="1500">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="onsale"><p>On Sale</p></div>
+                </div>
+                <div class="dowHolder">
+                    <div class="imgBox">
+                        <a href="#"><img src="assets/images/androidWatch.png" alt="headphones" data-aos="zoom-in-right" data-aos-duration="1500"></a>
+                    </div>
+                    <div class="holderCOntentBox">
+                        <a href="#" data-aos="fade-up" data-aos-duration="1500">TNC Android Watch</a>
+                        <div class="starReview" data-aos="fade-up" data-aos-duration="1500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pPrice" data-aos="fade-up" data-aos-duration="1500">
+                            <p>$ 125.00 USD</p>
+                            <span></span>
+                            <p><s>$ 150.00 USD</s></p>
+                        </div>
+                        <div class="adc" data-aos="fade-up" data-aos-duration="1500">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="onsale"><p>On Sale</p></div>
+                </div>
+                <div class="dowHolder">
+                    <div class="imgBox">
+                        <a href="#"><img src="assets/images/dealLaptop.png" alt="headphones" data-aos="zoom-in-right" data-aos-duration="1500"></a>
+                    </div>
+                    <div class="holderCOntentBox">
+                        <a href="#" data-aos="fade-up" data-aos-duration="1500">TNC Laptop</a>
+                        <div class="starReview" data-aos="fade-up" data-aos-duration="1500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pPrice" data-aos="fade-up" data-aos-duration="1500">
+                            <p>$ 170.00 USD</p>
+                            <span></span>
+                            <p><s>$ 210.00 USD</s></p>
+                        </div>
+                        <div class="adc" data-aos="fade-up" data-aos-duration="1500">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="onsale"><p>On Sale</p></div>
+                </div>
+                <div class="dowHolder">
+                    <div class="imgBox">
+                        <a href="#"><img src="assets/images/dealMobile.png" alt="headphones" data-aos="zoom-in-right" data-aos-duration="1500"></a>
+                    </div>
+                    <div class="holderCOntentBox">
+                        <a href="#" data-aos="fade-up" data-aos-duration="1500">TNC Android Phone</a>
+                        <div class="starReview" data-aos="fade-up" data-aos-duration="1500">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pPrice" data-aos="fade-up" data-aos-duration="1500">
+                            <p>$ 110.00 USD</p>
+                            <span></span>
+                            <p><s>$ 120.00 USD</s></p>
+                        </div>
+                        <div class="adc" data-aos="fade-up" data-aos-duration="1500">
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="onsale"><p>On Sale</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="duealCardSection">
+        <div class="container">
+            <div class="duelCardContent">
+                <div class="duelCardHolder" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="imgBox">
+                        <img src="assets/images/dualsec1.webp" alt="">
+                    </div>
+                    <div class="cardContentBox">
+                        <h4>TNC Fitness Trackers</h4>
+                        <p>Component invite device library clip. Asset distribute library star pencil layout.</p>
+                        <button class="btn-flip" data-back="Buy Now" data-front="Buy Now"></button>
+                    </div>
+                </div>
+                <div class="duelCardHolder" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="imgBox lastChildImg">
+                        <img src="assets/images/dualsec2.webp" alt="">
+                    </div>
+                    <div class="cardContentBox">
+                        <h4>Red Computer Mouse</h4>
+                        <p>Component invite device library clip. Asset distribute library star pencil layout.</p>
+                        <button class="btn-flip" data-back="Buy Now" data-front="Buy Now"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="filteProject">
+        <div class="container">
+            <div class="productCOntent">
+                <div class="wrap">
+                    <h1>Our Work</h1>
+                    
+                    <div class="gallery-wrap">
+                      
+                      <ul id="filters" class="clearfix">
+                        <li><span class="filter active" data-filter=".print, .strategy, .logo, .web">All</span></li>
+                        <li><span class="filter" data-filter=".print">Print</span></li>
+                        <li><span class="filter" data-filter=".strategy">Strategy</span></li>
+                        <li><span class="filter" data-filter=".logo">Logo</span></li>
+                        <li><span class="filter" data-filter=".web">Web</span></li>
+                      </ul>
+                      
+                      <div id="gallery">
+                      
+                      <a class="gallery-item logo" href="#" data-cat="logo">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Logo</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1084" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item logo" href="#" data-cat="logo">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Logo</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1083" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item web" href="#" data-cat="web">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Web</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1082" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item print" href="#" data-cat="print">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Print</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1081" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item strategy" href="#" data-cat="strategy">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Strategy</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1080" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item strategy web print" href="#" data-cat="strategy web print">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Strategy. Web. Print.</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1079" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item web" href="#" data-cat="web">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Web.</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1078" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item strategy" href="#" data-cat="strategy">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Strategy.</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1077" alt="" />
+                        </div>
+                      </a>
+                      
+                      <a class="gallery-item web strategy" href="#" data-cat="web strategy">
+                        <div class="inside">
+                          <div class="details">
+                            <div class="text">
+                              <h2>Client Name</h2>
+                              <p>Strategy. Web.</p>
+                            </div>
+                          </div>
+                          <div class="overlay"></div>
+                          <img src="https://unsplash.it/500/500?image=1076" alt="" />
+                        </div>
+                      </a>
+                        
+                      </div>/gallery
+                      
+                    </div>/gallery-wrap
+                    
+                  </div>
+            </div>
+        </div>
+    </section> -->
+    
+
+    <section class="sponsorSec">
+        <div class="container">
+            <div class="sponsorSlideParent">
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide1.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide2.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide3.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide4.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide5.webp" alt="sponsorSlide"></a>
+                </div>
+                <div class="slideChild">
+                    <a href="#"><img src="assets/images/spSlide5.webp" alt="sponsorSlide"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="btmSlider">
+        <div class="container">
+            <div class="btmSliderParent">
+                <div class="childSlide">
+                    <img src="assets/images/btmSlide1.webp" alt="btmSlide">
+                    <h4 class="h4">Mark Andrew</h4>
+                    <p>Object select list clip clip star selection plugin component opacity. Line inspect object auto pen hand pen layer plugin distribute comment outline. Distribute rotate community rectangle image flows group outline variant.</p>
+                </div>
+                <div class="childSlide">
+                    <img src="assets/images/btmSLide2.webp" alt="btmSlide">
+                    <h4 class="h4">Nikolas Austin</h4>
+                    <p>Component invite device library clip. Asset distribute library star pencil layout. Ellipse component pen hand pen layer plugin distribute comment outline. Distribute rotate community rectangle image flows group outline variant</p>
+                </div>
+                <div class="childSlide">
+                    <img src="assets/images/btmSlide3.webp" alt="btmSlide">
+                    <h4 class="h4">Eleanor Pena</h4>
+                    <p>Flows boolean stroke font union. Union group overflow fill group edit stroke create. Ellipse component pen hand pen layer plugin distribute comment outline. Distribute rotate community rectangle image flows group outline variant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="subNews">
+        <div class="container">
+            <div class="subNewsContent">
+                <div class="textContent">
+                    <h2 class="h2">Subscribe our newsletter</h2>
+                    <p>Subscribe to our newsletter for exclusive updates, promotions, and exciting news delivered straight to your inbox!</p>
+                </div>
+                <div class="formContent">
+                    <input type="text">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footerContent">
+                <div class="contentOne footerCOntectInfo">
+                    <div class="heading">
+                        <img src="assets/images/footerLogo.webp" alt="fooerLogo">
+                    </div>
+                    <p>At Shopper TNC, we curate diverse, quality products ensuring a stress-free shopping experience. Our dedicated team provides prompt support. Join our community.</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+                <div class="contentTwo footerCOntectInfo">
+                    <div class="heading"><h4 class="h4">Useful Links</h4></div>
+                    <ul class="linkList">
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>About</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Contact</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="contentThree footerCOntectInfo">
+                    <div class="heading"><h4 class="h4">Quick Links</h4></div>
+                    <ul class="linkList">
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>About Us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Shop</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Licensing</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Log-in</a></li>
+                    </ul>
+                </div>
+                <div class="contentFour footerCOntectInfo">
+                    <div class="offlienAdd">
+                        <div class="heading"><h4 class="h4">Contact Address</h4></div>
+                        <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    </div>
+                    <div class="onlienAdd">
+                        <div class="heading"><h4 class="h4">Contact Address</h4></div>
+                        <ul class="linkList">
+                            <li><a href="#"><i class="fa-solid fa-phone-volume"></i>(123) 555-0119</a></li>
+                            <li><a href="#"><i class="fa-regular fa-envelope"></i>(123) 555-0119</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="crContent">
+                <p>Copyright © 2024 Shopper TNC</p>
+                <span class="frstChild"></span>
+                <a href="#">Designed by ThemeNcode LLC</a>
+                <span class="lastChild"></span>
+                <a href="#">Powered by Webflow</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script> -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/mmenu-light.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/unpkg.com_isotope-layout@3.0.6_dist_isotope.pkgd.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
